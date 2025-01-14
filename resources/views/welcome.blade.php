@@ -12,7 +12,7 @@
             Tailwind CSS Berfungsi!
         </h1>
         <p class="mt-4 text-gray-700">
-            Jika Anda melihat teks ini dengan warna biru dan ukuran besar, maka Tailwind CSS sudah berjalan dengan baik.
+            Anjay muncull coyyy
         </p>
         <button class="mt-6 px-4 py-2 bg-green-500 text-white rounded hover:bg-green-600">
             Tombol Contoh
