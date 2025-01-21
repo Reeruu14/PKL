@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="{{ asset('css/app.css') }}" rel="stylesheet"> <!-- Tailwind CSS -->
-    <title>Wisata Semarang</title>
+    <title>Wisata Kota Semarang</title>
 </head>
 
 <body>

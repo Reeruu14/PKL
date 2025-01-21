@@ -18,7 +18,7 @@ return (
     <nav className={`fixed w-full top-0 z-50 transition-all duration-300 ${ isScrolled
         ? 'bg-gray-800/80 backdrop-blur-sm shadow-lg' : 'bg-gray-800' }`}>
         <div className="container mx-auto flex justify-between items-center px-6 py-4">
-            <a href="#" className="text-2xl font-bold text-white">Wisata Semarang</a>
+            <a href="#" className="text-2xl font-bold text-white">Wisata Kota Semarang</a>
             <ul className="flex space-x-6">
                 <li><a href="#about" className="text-gray-300 hover:text-white transition duration-300">About</a></li>
                 <li><a href="#categories"
@@ -67,7 +67,7 @@ return (
                 <div
                     className="text-center p-6 rounded-2xl bg-red-400 hover:scale-105 transition-transform duration-300">
                     <div className="flex flex-col items-center">
-                        <div className="text-white mb-2">
+                        <div className="text-white mb-2 bg-red-500 p-4 rounded-full">
                             <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8" fill="none" viewBox="0 0 24 24"
                                 stroke="currentColor">
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2}
@@ -81,9 +81,9 @@ return (
 
                 {/* Culinary Category */}
                 <div
-                    className="text-center p-6 rounded-2xl bg-orange-300 hover:scale-105 transition-transform duration-300">
+                    className="text-center p-6 rounded-2xl bg-blue-400 hover:scale-105 transition-transform duration-300">
                     <div className="flex flex-col items-center">
-                        <div className="text-white mb-2">
+                        <div className="text-white mb-2 bg-blue-500 p-4 rounded-full">
                             <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8" fill="none" viewBox="0 0 24 24"
                                 stroke="currentColor">
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2}
@@ -99,7 +99,7 @@ return (
                 <div
                     className="text-center p-6 rounded-2xl bg-green-400 hover:scale-105 transition-transform duration-300">
                     <div className="flex flex-col items-center">
-                        <div className="text-white mb-2">
+                        <div className="text-white mb-2 bg-green-500 p-4 rounded-full">
                             <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8" fill="none" viewBox="0 0 24 24"
                                 stroke="currentColor">
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2}
@@ -113,9 +113,9 @@ return (
 
                 {/* Entertainment Category */}
                 <div
-                    className="text-center p-6 rounded-2xl bg-cyan-400 hover:scale-105 transition-transform duration-300">
+                    className="text-center p-6 rounded-2xl bg-purple-800 hover:scale-105 transition-transform duration-300">
                     <div className="flex flex-col items-center">
-                        <div className="text-white mb-2">
+                        <div className="text-white mb-2 bg-purple-500 p-4 rounded-full">
                             <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8" fill="none" viewBox="0 0 24 24"
                                 stroke="currentColor">
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2}
@@ -131,7 +131,7 @@ return (
                 <div
                     className="text-center p-6 rounded-2xl bg-purple-400 hover:scale-105 transition-transform duration-300">
                     <div className="flex flex-col items-center">
-                        <div className="text-white mb-2">
+                        <div className="text-white mb-2 bg-purple-500 p-4 rounded-full">
                             <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8" fill="none" viewBox="0 0 24 24"
                                 stroke="currentColor">
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2}
@@ -147,7 +147,7 @@ return (
                 <div
                     className="text-center p-6 rounded-2xl bg-yellow-400 hover:scale-105 transition-transform duration-300">
                     <div className="flex flex-col items-center">
-                        <div className="text-white mb-2">
+                        <div className="text-white mb-2 bg-yellow-500 p-4 rounded-full">
                             <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8" fill="none" viewBox="0 0 24 24"
                                 stroke="currentColor">
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2}
@@ -185,7 +185,7 @@ return (
                 </div>
             </div>
         </section>
-
+        
         {/* Footer */}
         <footer id="contact" className="py-8 bg-gray-800 text-center">
             <p className="text-gray-400">Copyright © 2025 Wisata Semarang. All Rights Reserved.</p>
